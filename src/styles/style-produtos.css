@@ -1,0 +1,40 @@
+.grid-template-rows-1 {
+    display: grid;
+    grid-template-columns: 1 1 1 1;
+    grid-template-columns: 370px 370px 370px;
+    grid-template-rows: 400px 400px 400px;
+    grid-gap: 20px;
+    max-width: 1280px;
+    margin: 3rem auto;
+    justify-content: center;
+}
+
+.col-produtos-item {
+    margin: 2rem auto;
+}
+
+.col-produtos-item:hover {
+    transition: .5s;
+    opacity: 0.5;
+}
+
+.col-produtos-item img {
+    width: 280px;
+    height: 280px;
+    border-radius: 0.5rem;
+}
+
+.col-produtos-item h2 {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* fim do grid produtos */
+@media (max-width: 999px) {
+    .grid-template-rows-1 {
+        grid-template-columns: none;
+        grid-gap: 5rem;
+    }
+}

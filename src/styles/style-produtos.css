@@ -37,4 +37,8 @@
         grid-template-columns: none;
         grid-gap: 5rem;
     }
+
+    .grid-title {
+        text-align: center;
+    }
 }

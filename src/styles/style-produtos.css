@@ -13,10 +13,12 @@
     margin: 2rem auto;
 }
 
+/* 
 .col-produtos-item:hover {
     transition: .5s;
     opacity: 0.5;
 }
+*/
 
 .col-produtos-item img {
     width: 280px;
@@ -31,7 +33,8 @@
     margin-top: 10px;
 }
 
-/* fim do grid produtos */
+/* end of grid - products */
+
 @media (max-width: 999px) {
     .grid-template-rows-1 {
         grid-template-columns: none;
@@ -42,3 +45,5 @@
         text-align: center;
     }
 }
+
+/* end of @media for grid - products */

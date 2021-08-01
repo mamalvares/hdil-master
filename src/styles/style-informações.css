@@ -1,0 +1,89 @@
+section {
+    display: flex;
+    max-width: 100vw;
+    min-height: 100vh;
+    max-height: 100vh;
+    margin-bottom: 0;
+}
+
+.company {
+    background-image: url(/src/images/cool-background.svg);
+    background-size: 100% 100%;
+    position: absolute;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.company .c-caption {
+    background: hsla(0, 0%, 100%, .5);
+    box-shadow: 0 0 0 10px hsl(0deg 0% 100% / 20%);
+    margin: 100px auto;
+    padding: 2em;
+    overflow: hidden;
+    position: relative;
+    border: 2px solid hsla(0, 0%, 100%, .7);
+    color: #0b132b;
+    max-width: 90%;
+}
+
+.company .c-caption hr {
+    margin: 20px 0;
+    width: 21%;
+    height: 2px;
+    background-color: #c3c3c3;
+    border: none;
+}
+
+.company .c-caption p {
+    font-size: 18px;
+    color: rgba(0, 0, 0, .7);
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.h1,
+h1 {
+    font-size: 2.25rem;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}

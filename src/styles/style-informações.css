@@ -7,7 +7,7 @@ section {
 }
 
 .company {
-    background-image: url(/src/images/cool-background.svg);
+    /*background-image: url(/src/images/cool-background.svg);*/
     background-size: 100% 100%;
     position: absolute;
     align-items: center;

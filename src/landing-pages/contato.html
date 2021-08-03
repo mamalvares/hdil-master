@@ -8,7 +8,7 @@
     <title>Contato | HDil - COM. DE ACESSÓRIOS P/ MÓVEIS LTDA</title>
 
     <link rel="stylesheet" href="../styles/style.css">
-    
+
     <link rel="stylesheet" href="../styles/components/header-bar.css">
 
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
@@ -64,7 +64,6 @@
                         style="background-color: white;">
                     </div>
 
-
                     <div class="w-full flex flex-col items-start xl:justify-start relative xl:px-0 px-4 xl:py-0 py-4">
                         <div class="w-full 2xl:pl-48 xl:pt-1">
                             <h1 class="text-4xl md:text-5xl lg:text-7xl font-bold tracking-wider text-gray-800 mt-10"
@@ -94,34 +93,50 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="w-full lg:w-1/2 xl:pt-10 lg:pl-24">
-                    <div class="flex flex-col items-start xl:justify-start 2xl:justify-end xl:px-0 px-4">
+                    <div class="flex flex-col items-start xl:justify-start 2xl:justify-end xl:px-0 px-4"
+                     method="POST" action="../php/email.php">
                         <h1 class="text-4xl md:text-5xl lg:text-3xl font-bold tracking-wider text-white">Entre em
                             contato conosco via E-mail
                         </h1>
+
                         <div class="w-full 2xl:w-8/12 mt-3" role="form">
                             <div class="mt-4 md:mt-8">
                                 <p class="text-white text-base font-medium">Nome</p>
                                 <input
                                     class="mt-3 text-base border-2 w-11/12 lg:w-full xl:w-10/12 hover:border-indigo-600 focus:border-indigo-600 focus:outline-none border-black py-5 pl-4 text-gray-800"
-                                    type="text" placeholder="Seu nome" aria-label="enter your name input" />
+                                    type="text" placeholder="Seu nome" aria-label="enter your name input" name="name" />
                             </div>
+
                             <div class="mt-4 md:mt-8">
                                 <p class="text-white text-base font-medium">Endereço de email</p>
                                 <input
                                     class="mt-3 text-base border-2 w-11/12 lg:w-full xl:w-10/12 hover:border-indigo-600 focus:border-indigo-600 focus:outline-none border-black py-5 pl-4 text-gray-800"
-                                    type="email" placeholder="examplo@mail.com" aria-label="enter your email input" />
+                                    type="email" placeholder="examplo@mail.com" aria-label="enter your email input"
+                                    name="email" />
                             </div>
+
+                            <div class="mt-4 md:mt-8">
+                                <p class="text-white text-base font-medium">Telefone</p>
+                                <input
+                                    class="mt-3 text-base border-2 w-11/12 lg:w-full xl:w-10/12 hover:border-indigo-600 focus:border-indigo-600 focus:outline-none border-black py-5 pl-4 text-gray-800"
+                                    type="email" placeholder="(xx) xxxx-xxx" aria-label="enter your cell phone number"
+                                    name="telefone" />
+                            </div>
+
                             <div class="mt-4 md:mt-8">
                                 <p class="text-white text-base font-medium">Mensagem</p>
                                 <textarea
                                     class="mt-3 text-base border-2 w-11/12 lg:w-full xl:w-10/12 resize-none hover:border-indigo-600 focus:border-indigo-600 focus:outline-none border-black xl:h-40 py-5 pl-4 text-gray-800"
                                     type="text" placeholder="Escreva algo para nós..."
-                                    aria-label="enter your message input"></textarea>
+                                    aria-label="enter your message input" name="message"></textarea>
                             </div>
+
                             <div class="py-5">
                                 <button
-                                    class="py-3 md:py-5 px-5 md:px-10 bg-gray-900 text-white hover:opacity-70 ease-in duration-150 text-sm md:text-lg tracking-wider font-semibold focus:border-4 focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">Enviar</button>
+                                    class="py-3 md:py-5 px-5 md:px-10 bg-gray-900 text-white hover:opacity-70 ease-in duration-150 text-sm md:text-lg tracking-wider font-semibold focus:border-4 focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
+                                    type="submit" value="Enviar">Enviar</button>
                             </div>
                         </div>
                     </div>
@@ -129,7 +144,6 @@
             </div>
         </div>
     </div>
-
 
     <hr style="color: black;">
 

@@ -1,0 +1,56 @@
+.contato {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: -1rem auto;
+    margin-bottom: 1rem;
+    display: grid;
+}
+
+.contato p {
+    color: black;
+    text-align: start;
+}
+
+.contato:hover {
+    cursor: text;
+}
+
+.contato form .botao {
+    height: 50px;
+    border-radius: 0.3rem;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.contato form .botao:hover {
+    background-color: #9A1B14;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.form .h1-form {
+    font-size: 25px;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    padding: 20px;
+}
+
+.field {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.form textarea {
+    height: 150px;
+    cursor: text;
+}
+
+/* fim do formulario */

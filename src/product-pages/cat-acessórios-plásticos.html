@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buchas | Produtos - HDil</title>
+    <title>Acessórios Plásticos | Produtos - HDil</title>
 
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="https://oppeano.com.br/css/app.css">
-    
+
     <link rel="stylesheet" href="../styles/components/header-bar.css">
 
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
@@ -18,7 +18,7 @@
 
 <body style="background-color:#094067; margin-top: -7rem;">
     <header x-data="{ mobileMenuOpen : false }"
-        class="flex flex-wrap flex-row justify-between md:items-center md:space-x-4 bg-white py-4 px-7 relative">
+        class="flex flex-wrap flex-row justify-between md:items-center md:space-x-4 bg-white py-3 px-7 relative" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
         <a href="index.html" class="block">
             <span class="sr-only"></span>
             <img class="h-20 md:h-20" src="../images/logo - bordered.png" alt="HDil Logo" title="HDil Logo">
@@ -32,13 +32,13 @@
             </svg>
         </button>
         <nav class="absolute md:relative top-20 left-0 md:top-0 z-20 md:flex flex-col md:flex-row md:space-x-6 font-semibold w-full md:w-auto bg-gray-100 shadow-md md:rounded-none md:shadow-none md:bg-transparent p-6 pt-0 md:p-0"
-            :class="{ 'flex' : mobileMenuOpen , 'hidden' : !mobileMenuOpen}" @click.away="mobileMenuOpen = false"   
+            :class="{ 'flex' : mobileMenuOpen , 'hidden' : !mobileMenuOpen}" @click.away="mobileMenuOpen = false"
             style="margin-top: 10px;">
-            <a href="index.html" class="block py-1 text-gray-600 text-xl hover:underline">Início</a>
-            <a href="produtos.html" class="block py-1 text-gray-600 text-xl hover:underline">Produtos</a>
-            <a href="informações.html" class="block py-1 text-gray-600 text-xl hover:underline">Informações</a>
-            <a href="contato.html" class="block py-1 text-gray-600 text-xl hover:underline">Contato</a>
-            <a href="localização.html" class="block py-1 text-gray-600 text-xl hover:underline">Localização</a>
+            <a href="../landing-pages/index.html" class="block py-1 text-gray-600 text-xl hover:underline">Início</a>
+            <a href="../landing-pages/produtos.html" class="block py-1 text-gray-600 text-xl hover:underline">Produtos</a>
+            <a href="../landing-pages/informações.html" class="block py-1 text-gray-600 text-xl hover:underline">Informações</a>
+            <a href="../landing-pages/contato.html" class="block py-1 text-gray-600 text-xl hover:underline">Contato</a>
+            <a href="../landing-pages/localização.html" class="block py-1 text-gray-600 text-xl hover:underline">Localização</a>
         </nav>
     </header>
 
@@ -339,9 +339,9 @@
                 <div class="mt-8 sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-between">
                     <div class="flex flex-col">
                         <span class="font-bold uppercase mb-2" style="color: #094067;">HDil</span>
-                        <span class="my-2"><a href="#" class="text-white  text-md hover:text-gray-200"><i
+                        <span class="my-2"><a href="../landing-pages/informações.html" class="text-white  text-md hover:text-gray-200"><i
                                     class="icon-info"></i> Informações</a></span>
-                        <span class="my-2"><a href="#" class="text-white  text-md hover:text-gray-200"><i
+                        <span class="my-2"><a href="../landing-pages/contato.html" class="text-white  text-md hover:text-gray-200"><i
                                     class="icon-envelope"></i> Contato</a></span>
                         <span class="my-2"><a
                                 href="https://www.google.com.br/maps/dir//Rua+Bar%C3%A3o+de+Jaguara,+279+-+Mooca,+S%C3%A3o+Paulo+-+SP,+03105-120/@-23.5553507,-46.6194414,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x94ce5916b58f2cf7:0xe0ed3bd3429875e4!2m2!1d-46.6172527!2d-23.5553556!3e0"
@@ -354,12 +354,12 @@
                         <span class="my-2"><a href="#" class="text-white text-md hover:text-gray-100">Espuma</a></span>
                         <span class="my-2"><a href="#"
                                 class="text-white  text-md hover:text-gray-200">Cadeiras</a></span>
-                        <span class="my-2"><a href="cat-pés-niveladores.html"
+                        <span class="my-2"><a href="../product-pages/cat-pés-niveladores.html"
                                 class="text-white text-md hover:text-gray-200">Pés Niveladores
                             </a></span>
                         <span class="my-2"><a href="#" class="text-white text-md hover:text-gray-200">Ponteiras
                             </a></span>
-                        <span class="my-2"><a href="cat-acessórios-plásticos.html"
+                        <span class="my-2"><a href="../product-pages/cat-acessórios-plásticos.html"
                                 class="text-white text-md hover:text-gray-200">Acessórios
                                 Plásticos </a></span>
                         <span class="my-2"><a href="#" class="text-white text-md hover:text-gray-200">Perfís Plásticos

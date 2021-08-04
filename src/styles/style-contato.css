@@ -2,16 +2,10 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: -1rem auto;
     margin-bottom: 1rem;
-    display: grid;
 }
 
 .contato p {
-    color: black;
     text-align: start;
-}
-
-.contato:hover {
-    cursor: text;
 }
 
 .contato form .botao {
@@ -29,6 +23,7 @@
 
 .form .h1-form {
     font-size: 25px;
+    margin-bottom: 1rem;
     text-align: center;
 }
 

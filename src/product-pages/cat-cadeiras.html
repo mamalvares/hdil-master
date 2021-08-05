@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadeiras | Produtos - HDil</title>
+
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/style-produtos.css">
+
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../images/logo-shortcut.png" type="image/x-icon" />
+</head>
+
+<body style="background-color:#094067;">
+
+
+    <header x-data="{ mobileMenuOpen : false }"
+        class="flex flex-wrap flex-row justify-between md:items-center md:space-x-4 bg-white py-4 px-7 relative">
+        <a href="index.html" class="block">
+            <span class="sr-only"></span>
+            <img class="h-20 md:h-20" src="../images/logo - bordered.png" alt="HDil Logo" title="HDil Logo">
+        </a>
+        <button @click="mobileMenuOpen = !mobileMenuOpen"
+            class="inline-block md:hidden w-16 h-16 bg-none text-black p-1">
+            <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                    d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                    clip-rule="evenodd"></path>
+            </svg>
+        </button>
+        <nav class="absolute md:relative top-20 left-0 md:top-0 z-20 md:flex flex-col md:flex-row md:space-x-6 font-semibold w-full md:w-auto bg-gray-100 shadow-md md:rounded-none md:shadow-none md:bg-transparent p-6 pt-0 md:p-0"
+            :class="{ 'flex' : mobileMenuOpen , 'hidden' : !mobileMenuOpen}" @click.away="mobileMenuOpen = false"
+            style="margin-top: 10px;">
+            <a href="../landing-pages/index.html" class="block py-1 text-gray-600 text-xl hover:underline">Home</a>
+            <a href="../landing-pages/produtos.html" class="block py-1 text-gray-600 text-xl hover:underline">Produtos</a>
+            <a href="../landing-pages/informações.html" class="block py-1 text-gray-600 text-xl hover:underline">Informações</a>
+            <a href="../landing-pages/contato.html" class="block py-1 text-gray-600 text-xl hover:underline">Contato</a>
+            <a href="../landing-pages/localização.html" class="block py-1 text-gray-600 text-xl hover:underline">Localização</a>
+        </nav>
+    </header>
+
+    <div class="py-6 lg:py-12">
+        <div class="container px-10 mx-auto flex flex-col md:flex-row items-start md:items-center justify-between">
+            <div>
+                <p role="navigation" aria-label="breadcrumbs" class="flex items-center text-white text-xs text-xl">
+                    <a href="../landing-pages/index.html">Home</a>
+
+                    <span aria-hidden="true" class="mx-2">&gt;</span>
+                    <a href="../landing-pages/produtos.html" class="text-red-700">Produtos</a>
+
+                    <!--
+                        <span aria-hidden="true" class="mx-2">&gt;</span>
+                        <a aria-current="page" href="javascript:void(0)">KPIs</a>
+                        -->
+
+                </p>
+                <h4 class="text-4xl font-bold leading-tight text-white dark:text-gray-100">Cadeiras</h4>
+            </div>
+        </div>
+    </div>
+
+    <section class="grid grid-template-rows-1">
+        <div class="col-produtos-item">
+            <img src="../images/cat/Cadeiras/1-aem-400-comp-cadeira.jpg" style="cursor: pointer;">
+        </div>
+
+        <div class="col-produtos-item">
+            <img src="../images/cat/Cadeiras/1-sa-341-pes-niveladores.jpg" style="cursor: pointer;">
+        </div>
+
+        <div class="col-produtos-item">
+            <img src="../images/cat/Cadeiras/10-cd-80-comp-cadeira.jpg" style="cursor: pointer;">
+        </div>
+
+        <div class="col-produtos-item">
+            <img src="../images/cat/Cadeiras/10-mc-30-meiacana-pf.jpg" style="cursor: pointer;">
+        </div>
+
+        <div class="col-produtos-item">
+            <img src="../images/cat/Cadeiras/" style="cursor: pointer;">
+        </div>
+
+        <div class="col-produtos-item">
+            <img src="../images/cat/Cadeiras/" style="cursor: pointer;">
+        </div>
+
+        <div class="col-produtos-item">
+            <img src="../images/cat/Cadeiras/" style="cursor: pointer;">
+        </div>
+
+        <div class="col-produtos-item">
+            <img src="../images/cat/Cadeiras/" style="cursor: pointer;">
+        </div>
+
+        <div class="col-produtos-item">
+            <img src="../images/cat/Cadeiras/" style="cursor: pointer;">
+        </div>
+
+        <div class="col-produtos-item">
+            <img src="../images/cat/Cadeiras/" style="cursor: pointer;">
+        </div>
+
+        <div class="col-produtos-item">
+            <img src="../images/cat/Cadeiras/" style="cursor: pointer;">
+        </div>
+
+        <div class="col-produtos-item">
+            <img src="../images/cat/Cadeiras/" style="cursor: pointer;">
+        </div>
+
+        <div class="col-produtos-item">
+            <img src="../images/cat/Cadeiras/" style="cursor: pointer;">
+        </div>
+
+        <div class="col-produtos-item">
+            <img src="../images/cat/Cadeiras/" style="cursor: pointer;">
+        </div>
+
+        <div class="col-produtos-item">
+            <img src="../images/cat/Cadeiras/" style="cursor: pointer;">
+        </div>
+
+        <div class="col-produtos-item">
+            <img src="../images/cat/Cadeiras/" style="cursor: pointer;">
+        </div>
+
+        <div class="col-produtos-item">
+            <img src="../images/cat/Cadeiras/" style="cursor: pointer;">
+        </div>
+
+        <div class="col-produtos-item">
+            <img src="../images/cat/Cadeiras/" style="cursor: pointer;">
+        </div>
+
+        <div class="col-produtos-item">
+            <img src="../images/cat/Cadeiras/" style="cursor: pointer;">
+        </div>
+
+        <div class="col-produtos-item">
+            <img src="../images/cat/Cadeiras/" style="cursor: pointer;">
+        </div>
+
+        <div class="col-produtos-item">
+            <img src="../images/cat/Cadeiras/" style="cursor: pointer;">
+        </div>
+
+        <div class="col-produtos-item">
+            <img src="../images/cat/Cadeiras/" style="cursor: pointer;">
+        </div>
+
+        <div class="col-produtos-item">
+            <img src="../images/cat/Cadeiras/" style="cursor: pointer;">
+        </div>
+
+        <div class="col-produtos-item">
+            <img src="../images/cat/Cadeiras/" style="cursor: pointer;">
+        </div>
+
+        <div class="col-produtos-item">
+            <img src="../images/cat/Cadeiras/" style="cursor: pointer;">
+        </div>
+
+        <div class="col-produtos-item">
+            <img src="../images/cat/Cadeiras/" style="cursor: pointer;">
+        </div>
+
+        <div class="col-produtos-item">
+            <img src="../images/cat/Cadeiras/" style="cursor: pointer;">
+        </div>
+
+        <div class="col-produtos-item">
+            <img src="../images/cat/Cadeiras/" style="cursor: pointer;">
+        </div>
+
+        <div class="col-produtos-item">
+            <img src="../images/cat/Cadeiras/" style="cursor: pointer;">
+        </div>
+
+        <div class="col-produtos-item">
+            <img src="../images/cat/Cadeiras/" style="cursor: pointer;">
+        </div>
+
+        <div class="col-produtos-item">
+            <img src="../images/cat/Cadeiras/" style="cursor: pointer;">
+        </div>
+
+        <div class="col-produtos-item">
+            <img src="../images/cat/Cadeiras/" style="cursor: pointer;">
+        </div>
+
+        <div class="col-produtos-item">
+            <img src="../images/cat/Cadeiras/" style="cursor: pointer;">
+        </div>
+    </section>
+
+    <hr style="color: black;">
+
+    <footer class="footer relative pt-2 border-t-2 border-red-800" style="background-color: #90b4ce;">
+        <div class="container mx-auto px-6">
+
+            <div class="sm:flex sm:mt-8">
+                <div class="mt-8 sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-between">
+                    <div class="flex flex-col">
+                        <span class="font-bold uppercase mb-2" style="color: #094067;">HDil</span>
+                        <span class="my-2"><a href="../landing-pages/informações.html"
+                                class="text-white  text-md hover:text-gray-200"><i class="icon-info"></i>
+                                Informações</a></span>
+                        <span class="my-2"><a href="../landing-pages/contato.html"
+                                class="text-white  text-md hover:text-gray-200"><i class="icon-envelope"></i>
+                                Contato</a></span>
+                        <span class="my-2"><a
+                                href="https://www.google.com.br/maps/dir//Rua+Bar%C3%A3o+de+Jaguara,+279+-+Mooca,+S%C3%A3o+Paulo+-+SP,+03105-120/@-23.5553507,-46.6194414,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x94ce5916b58f2cf7:0xe0ed3bd3429875e4!2m2!1d-46.6172527!2d-23.5553556!3e0"
+                                class="text-white  text-md hover:text-gray-200"><i class="icon-map-marker"></i>
+                                Rua Barão De Jaguara, 279 <br>
+                                Mooca São Paulo-SP CEP: 03105-120</a></span>
+                        <span class="my-2"><a
+                                href="https://www.google.com.br/maps/dir//Rua+Bar%C3%A3o+de+Jaguara,+279+-+Mooca,+S%C3%A3o+Paulo+-+SP,+03105-120/@-23.5553507,-46.6194414,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x94ce5916b58f2cf7:0xe0ed3bd3429875e4!2m2!1d-46.6172527!2d-23.5553556!3e0"
+                                class="text-white  text-md hover:text-gray-200">
+                                <a class="acontact" href="tel:(11)2337-3560" style="color: white;"><i
+                                        class="icon-phone"></i>
+                                    (11) 2337-3560</a></span>
+                    </div>
+                    
+                    <div class="flex flex-col">
+                        <span class="font-bold uppercase mt-7 md:mt-0 mb-2" style="color: #094067;">Catálogo</span>
+                        <span class="my-2"><a href="../product-pages/cat-espumas.html"
+                                class="text-white text-md hover:text-gray-100">Espuma</a></span>
+                        <span class="my-2"><a href="../product-pages/cat-cadeiras.html"
+                                class="text-white  text-md hover:text-gray-200">Cadeiras</a></span>
+                        <span class="my-2"><a href="../product-pages/cat-pés-niveladores.html"
+                                class="text-white text-md hover:text-gray-200">Pés Niveladores
+                            </a></span>
+                        <span class="my-2"><a href="../product-pages/cat-ponteiras.html"
+                                class="text-white text-md hover:text-gray-200">Ponteiras
+                            </a></span>
+                        <span class="my-2"><a href="../product-pages/cat-acessórios-plásticos.html"
+                                class="text-white text-md hover:text-gray-200">Acessórios
+                                Plásticos </a></span>
+                        <span class="my-2"><a href="../product-pages/cat-perfis-plásticos.html"
+                                class="text-white text-md hover:text-gray-200">Perfís Plásticos
+                            </a></span>
+                        <span class="my-2"><a href="../product-pages/cat-madeira.html"
+                                class="text-white text-md hover:text-gray-200">Madeira</a></span>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="font-bold uppercase mt-7    md:mt-0 mb-2" style="color: #094067;">Redes
+                            Sociais</span>
+                        <span class="my-2"><a href="https://www.instagram.com/hdil2013/"
+                                class="text-white  text-md hover:text-gray-200"><i class="icon-instagram"></i>
+                                Instagram</a></span>
+                        <span class="my-2"><a href="#" class="text-white text-md hover:text-gray-200"><i
+                                    class="icon-facebook"></i> Facebook</a></span>
+                        <span class="my-2"><a
+                                href="https://api.whatsapp.com/send?phone=5511942333536&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20produtos%20da%20H-DIL%20COM.%20DE%20ACESSORIOS%20LTDA"
+                                class="text-white  text-md hover:text-gray-200"><i class="icon-phone"></i> Whats
+                                App</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container  mx-auto px-6">
+            <div class="mt-16 border-t-2 border-gray-300 flex flex-col items-center">
+                <div class="sm:w-2/3 text-center py-6">
+                    <p class="text-sm text-black font-bold mb-2">
+                        © HDil 2021 — Todos os direitos reservados. <br>Desenvolvido por:
+                        <a href="https://github.com/mamalvares" class="text-white hover:text-gray-100"><i
+                                class="icon-github"></i>
+                            Matheus Abrahão</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+</body>
+
+</html>

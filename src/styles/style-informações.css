@@ -24,6 +24,7 @@ section {
     overflow: hidden;
     position: relative;
     border: 2px solid hsla(0, 0%, 100%, .7);
+    border-radius: 1rem;
     color: #0b132b;
     max-width: 90%;
 }

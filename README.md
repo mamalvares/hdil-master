@@ -4,4 +4,4 @@
 
 Esse foi o projeto onde eu aprendi a fazer o site oficial de uma loja.
 
-[MIT License](./LICENSE) © [Matheus Abrahão](github.com/mamalvares)
+[MIT License](./LICENSE) © [Matheus Abrahão](https://github.com/mamalvares)

@@ -10,14 +10,13 @@ $to = "contato@hdil.com";
 $subject = "Contato HDIL site";
 $body = "Nome: ".$nome. "\r\n".
         "Email: ".$email. "\r\n".
-        "Telefone: ".$telefone. "\r\n".
+        "Telefone: ".$telefone. "\r\n". 
         "Mensagem: ".$mensagem;
 $header = "From: henrique@hdil.com"."\r\n".
         "Reply-To:".$email."\e\n".
         "X=Mailer:PHP/".phpversion();
 
 if(mail($to,$subject,$body,$header)){
-
         echo("Email enviado com sucesso!");
 
 }else{

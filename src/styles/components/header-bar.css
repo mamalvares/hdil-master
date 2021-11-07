@@ -1,10 +1,15 @@
+:root {
+    --bg-color: #094067;
+    --secondary-color: #9A1B14;
+}
+
 .header-bar nav {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-    background: #094067;
+    background: var(--bg-color);
     height: 5vh;
     border-bottom: 2px solid var(--tertiary);
 }
@@ -14,7 +19,7 @@
     justify-content: space-around;
     align-items: center;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-    background: #094067;
+    background: var(--bg-color);
     height: 8vh;
 }
 

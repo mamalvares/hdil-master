@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br">a
 
 <head>
     <meta charset="UTF-8">
@@ -8,15 +8,17 @@
     <title>Espumas | Produtos - HDil</title>
 
     <link rel="stylesheet" href="../styles/style.css">
-    <link rel="stylesheet" href="../styles/style-produtos.css">
+    <link rel="stylesheet" href="https://oppeano.com.br/css/app.css">
+    <link rel="stylesheet" href="../styles/components/header-bar.css">
 
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <link rel="shortcut icon" href="../images/logo-shortcut.png" type="image/x-icon" />
 </head>
 
-<body style="background-color:#094067;">
+<body style="background-color:#094067; margin-top: -7rem;">
     <header x-data="{ mobileMenuOpen : false }"
-        class="flex flex-wrap flex-row justify-between md:items-center md:space-x-4 bg-white py-4 px-7 relative">
+        class="flex flex-wrap flex-row justify-between md:items-center md:space-x-4 bg-white py-3 px-7 relative"
+        style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
         <a href="../landing-pages/index.html" class="block">
             <span class="sr-only"></span>
             <img class="h-20 md:h-20" src="../images/logo - bordered.png" alt="HDil Logo" title="HDil Logo">
@@ -47,7 +49,7 @@
         <div class="container px-10 mx-auto flex flex-col md:flex-row items-start md:items-center justify-between">
             <div>
                 <p role="navigation" aria-label="breadcrumbs" class="flex items-center text-white text-xs text-xl">
-                    <a href="../landing-pages/index.html">Home</a>
+                    <a href="../landing-pages/index.html" class="text-white">Home</a>
 
                     <span aria-hidden="true" class="mx-2">&gt;</span>
                     <a href="../landing-pages/produtos.html" class="text-red-700">Produtos</a>
@@ -58,18 +60,90 @@
                         -->
 
                 </p>
-                <h4 class="text-4xl font-bold leading-tight text-white dark:text-gray-100">Espumas</h4>
             </div>
         </div>
     </div>
 
-    <section class="grid grid-template-rows-1">
-        <div class="col-produtos-item"> <!--cada div 1 produto-->
-            <img src="../images/cat/Espuma/Screenshot 2020-10-31 131104.png" style="cursor: pointer;">
-        </div>
-    </section>
+    <div id="app" style="background-color: #094067; margin-bottom: -9rem; margin-top: -5rem;">
+        <div data-v-7a59e1a0="" class="wrapper">
+            <div data-v-7a59e1a0="" class="wrapper-header" style="background-color: #9A1B14;">
+                <div data-v-7a59e1a0="" class="wrapper-header-details"><a data-v-7a59e1a0=""
+                        href="../landing-pages/produtos.html" class="router-link router-link-active"><svg
+                            data-v-7a59e1a0="" style="margin-top: -10px; color: white;"
+                            xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="wrapper-header-details-icon feather feather-arrow-left">
+                            <line data-v-7a59e1a0="" x1="19" y1="12" x2="5" y2="12"></line>
+                            <polyline data-v-7a59e1a0="" points="12 19 5 12 12 5"></polyline>
+                        </svg></a>
+                    <h3 data-v-7a59e1a0="" class="wrapper-header-details-title" style="font-size: 40px; color: white;">
+                        Espumas</h3>
+                </div>
+            </div>
+            <div data-v-7a59e1a0="" class="items-header">
+                <div data-v-7a59e1a0="" class="items-header-image" style="margin-left: -3.2rem;">Imagem</div>
+                <div data-v-7a59e1a0="" class="items-header-code" style="margin-left: 3.5rem;">Código</div>
+                <div data-v-7a59e1a0="" class="items-header-description">Descrição</div>
+            </div>
+            <div data-v-7a59e1a0="" class="items">
+                <div data-v-7a59e1a0="">
+                    <div data-v-7a59e1a0="" class="item-box">
+                        <div data-v-7a59e1a0="" class="item-box-image"><img data-v-7a59e1a0=""
+                                src="../images/cat/Espuma/diretor.jpg" alt="Espuma-diretor"></div>
+                        <div data-v-7a59e1a0="" class="item-box-code"><span data-v-7a59e1a0="">000000</span></div>
+                        <div data-v-7a59e1a0="" class="item-box-description"><span data-v-7a59e1a0="">Espuma diretor
+                            </span></div>
+                    </div>
+                </div>
+                <div data-v-7a59e1a0="">
+                    <div data-v-7a59e1a0="" class="item-box">
+                        <div data-v-7a59e1a0="" class="item-box-image"><img data-v-7a59e1a0=""
+                                src="../images/cat/Espuma/presidente.jpg" alt="Espuma-presidente"></div>
+                        <div data-v-7a59e1a0="" class="item-box-code"><span data-v-7a59e1a0="">000000</span></div>
+                        <div data-v-7a59e1a0="" class="item-box-description"><span data-v-7a59e1a0="">Espuma presidente
+                            </span></div>
+                    </div>
+                </div>
+                <div data-v-7a59e1a0="">
+                    <div data-v-7a59e1a0="" class="item-box">
+                        <div data-v-7a59e1a0="" class="item-box-image"><img data-v-7a59e1a0=""
+                                src="../images/cat/Espuma/executiva.jpg" alt="Espuma-executiva"></div>
+                        <div data-v-7a59e1a0="" class="item-box-code"><span data-v-7a59e1a0="">000000</span></div>
+                        <div data-v-7a59e1a0="" class="item-box-description"><span data-v-7a59e1a0="">Espuma executiva
+                            </span></div>
+                    </div>
+                </div>
+                <div data-v-7a59e1a0="">
+                    <div data-v-7a59e1a0="" class="item-box">
+                        <div data-v-7a59e1a0="" class="item-box-image"><img data-v-7a59e1a0=""
+                                src="../images/cat/Espuma/secretária.jpg" alt="Espuma-secretária"></div>
+                        <div data-v-7a59e1a0="" class="item-box-code"><span data-v-7a59e1a0="">000000</span></div>
+                        <div data-v-7a59e1a0="" class="item-box-description"><span data-v-7a59e1a0="">Espuma secretária
+                            </span></div>
+                    </div>
+                </div>
+                <div data-v-7a59e1a0="">
+                    <div data-v-7a59e1a0="" class="item-box">
+                        <div data-v-7a59e1a0="" class="item-box-image"><img data-v-7a59e1a0=""
+                                src="../images/cat/Espuma/secretária (2).jpg" alt="Espuma-secretária"></div>
+                        <div data-v-7a59e1a0="" class="item-box-code"><span data-v-7a59e1a0="">000000</span></div>
+                        <div data-v-7a59e1a0="" class="item-box-description"><span data-v-7a59e1a0="">Espuma secretária
+                            </span></div>
+                    </div>
+                </div>
+                <div data-v-7a59e1a0="">
+                    <div data-v-7a59e1a0="" class="item-box">
+                        <div data-v-7a59e1a0="" class="item-box-image"><img data-v-7a59e1a0=""
+                                src="../images/cat/Espuma/secretária (3).jpg" alt="Espuma-secretária"></div>
+                        <div data-v-7a59e1a0="" class="item-box-code"><span data-v-7a59e1a0="">000000</span></div>
+                        <div data-v-7a59e1a0="" class="item-box-description"><span data-v-7a59e1a0="">Espuma secretária
+                            </span></div>
+                    </div>
+                </div>
 
-    <hr style="color: black;">
+            </div>
+        </div>
+    </div>
 
     <footer class="footer relative pt-2 border-t-2 border-red-800" style="background-color: #90b4ce;">
         <div class="container mx-auto px-6">
@@ -148,6 +222,7 @@
         </div>
     </footer>
 
+    <script src="https://oppeano.com.br/js/app.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
 </body>
 

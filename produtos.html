@@ -5,21 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Produtos | HDil - COM. DE ACESSÓRIOS P/ MÓVEIS LTDA</title>
+    <title>Produtos | HDil - Acessórios para Móveis</title>
 
-    <link rel="stylesheet" href="../styles/style.css">
-    <link rel="stylesheet" href="../styles/style-produtos.css">
-    <link rel="stylesheet" href="../styles/components/header-bar.css">
+    <link rel="stylesheet" href="src/styles/style.css">
+    <link rel="stylesheet" href="src/styles/style-produtos.css">
+    <link rel="stylesheet" href="src/styles/components/header-bar.css">
 
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-    <link rel="shortcut icon" href="../images/logo-shortcut.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="src/images/logo-shortcut.png" type="image/x-icon" />
 </head>
 
 <body style="background-image: linear-gradient( #094067, #09406750);">
     <div class="header-bar">
         <nav class="nav-bar">
             <ul class="nav-libar">
-                <li><a href="/Email/contato.html" style="color: white"><i class="icon-envelope-alt"></i>
+                <li><a href="contato.html" style="color: white"><i class="icon-envelope-alt"></i>
                         contato@hdil.com</a></li>
                 <li><a class="acontact" href="tel:(11)2337-3560" style="color: white;"><i class="icon-phone"></i>
                         (11) 2337-3560</a></li>
@@ -33,7 +33,7 @@
         class="flex flex-wrap flex-row justify-between md:items-center md:space-x-4 bg-white py-4 px-7 relative">
         <a href="index.html" class="block">
             <span class="sr-only"></span>
-            <img class="h-20 md:h-20" src="../images/logo - bordered.png" alt="HDil Logo" title="HDil Logo">
+            <img class="h-20 md:h-20" src="src/images/logo - bordered.png" alt="HDil Logo" title="HDil Logo">
         </a>
 
         <button @click="mobileMenuOpen = !mobileMenuOpen"
@@ -50,7 +50,7 @@
             style="margin-top: 10px;">
             <a href="index.html" class="block py-1 text-gray-600 text-xl hover:underline">Home</a>
             <a href="produtos.html" class="block py-1 text-gray-600 text-xl hover:underline">Produtos</a>
-            <a href="informações.html" class="block py-1 text-gray-600 text-xl hover:underline">Informações</a>
+            <a href="Empresa.html" class="block py-1 text-gray-600 text-xl hover:underline">Empresa</a>
             <a href="contato.html" class="block py-1 text-gray-600 text-xl hover:underline">Contato</a>
             <a href="localização.html" class="block py-1 text-gray-600 text-xl hover:underline">Localização</a>
         </nav>
@@ -76,45 +76,35 @@
         </div>
     </div>
 
-    <!--
-    <div class="grid-title">
-        <h1
-            style="color: white; max-width: 1160px; margin: 3rem auto; font-size: 35px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-            Produtos</h1>
-    </div>
-    -->
-
     <section class="grid grid-template-rows-1">
         <div class="col-produtos-item">
-            <a title="Espumas" href="../product-pages/cat-espumas.html"> <img title="Espumas"
-                    src="../images/cat/Espuma/cover.png" alt="Espumas"></a>
-            <a class="txtcenter" style="text-decoration: none;" title="Espumas"
-                href="../product-pages/cat-espumas.html">
+            <a title="Espumas" href="catalogo/cat-espumas.html"> <img title="Espumas"
+                    src="src/images/cat/Espuma/cover.png" alt="Espumas"></a>
+            <a class="txtcenter" style="text-decoration: none;" title="Espumas" href="catalogo/cat-espumas.html">
                 <h2>Espumas</h2>
             </a>
         </div>
 
         <div class="col-produtos-item">
-            <a title="Cadeiras" href="../product-pages/cat-cadeiras.html"> <img title="Cadeiras"
-                    src="../images/cat/Cadeiras/cat-cadeira (12).jpg" alt="Cadeiras"></a>
+            <a title="Cadeiras" href="catalogo/cat-cadeiras.html"> <img title="Cadeiras"
+                    src="src/images/cat/Cadeiras/cat-cadeira (12).jpg" alt="Cadeiras"></a>
             <a class=" txtcenter" style="text-decoration: none;" title="Cadeiras" href="/cat-pages/cat-cadeiras.html">
                 <h2>Cadeiras</h2>
             </a>
         </div>
 
         <div class="col-produtos-item">
-            <a title="Cadeiras" href="../product-pages/cat-acessórios-para-cadeiras.html"> <img
-                    title="Acessórios p/ cadeiras" src="../images/cat/Acessórios-para-cadeiras/modelo.jpg"
-                    alt="Acessórios p/ cadeiras"></a>
+            <a title="Cadeiras" href="catalogo/cat-acessórios-para-cadeiras.html"> <img title="Acessórios p/ cadeiras"
+                    src="src/images/cat/Acessórios-para-cadeiras/modelo.jpg" alt="Acessórios p/ cadeiras"></a>
             <a class=" txtcenter" style="text-decoration: none;" title="Cadeiras"
-                href="../product-pages/cat-acessórios-para-cadeiras.html">
+                href="catalogo/cat-acessórios-para-cadeiras.html">
                 <h2>Acessórios p/ cadeiras</h2>
             </a>
         </div>
 
         <div class="col-produtos-item">
-            <a title="Pés Niveladores" href="../product-pages/cat-pés-niveladores.html"> <img title="Pés Niveladores"
-                    src="../images/cat/Pes-Niveladores/exemplo.png" alt="Pés Niveladores"></a>
+            <a title="Pés Niveladores" href="catalogo/cat-pés-niveladores.html"> <img title="Pés Niveladores"
+                    src="src/images/cat/Pes-Niveladores/exemplo.png" alt="Pés Niveladores"></a>
             <a class=" txtcenter" style="text-decoration: none;" title="Pés Niveladores"
                 href="cat-pés-niveladores.html">
                 <h2>Pés niveladores</h2>
@@ -122,98 +112,99 @@
         </div>
 
         <div class="col-produtos-item">
-            <a title="Ponteiras" href="../product-pages/cat-ponteiras.html"> <img title="Ponteiras"
-                    src="../images/cat/ponteiras/ponteira (1).png" alt="Ponteiras"></a>
+            <a title="Ponteiras" href="catalogo/cat-ponteiras.html"> <img title="Ponteiras"
+                    src="src/images/cat/ponteiras/ponteira (1).png" alt="Ponteiras"></a>
             <a class=" txtcenter" style="text-decoration: none;" title="Ponteiras" href="/cat-pages/cat-ponteiras.html">
                 <h2>Ponteiras</h2>
             </a>
         </div>
 
         <div class="col-produtos-item">
-            <a title="Puxadores" href="../product-pages/cat-puxadores.html"> <img title="Puxadores"
-                    src="../images/cat/Puxadores/C17img_03.png" alt="Puxadores"></a>
-            <a class=" txtcenter" style="text-decoration: none;" title="Puxadores"
-                href="../product-pages/cat-puxadores.html">
+            <a title="Puxadores" href="catalogo/cat-puxadores.html"> <img title="Puxadores"
+                    src="src/images/cat/Puxadores/C17img_03.png" alt="Puxadores"></a>
+            <a class=" txtcenter" style="text-decoration: none;" title="Puxadores" href="catalogo/cat-puxadores.html">
                 <h2>Puxadores</h2>
             </a>
         </div>
 
         <div class="col-produtos-item">
-            <a title="Buchas" href="../product-pages/cat-buchas.html"> <img title="Buchas"
-                    src="../images/cat/buchas/C1img_01.png" alt="Buchas"></a>
-            <a class="txtcenter" style="text-decoration: none;" title="Buchas" href="../product-pages/cat-buchas.html">
+            <a title="Buchas" href="catalogo/cat-buchas.html"> <img title="Buchas"
+                    src="src/images/cat/buchas/C1img_01.png" alt="Buchas"></a>
+            <a class="txtcenter" style="text-decoration: none;" title="Buchas" href="catalogo/cat-buchas.html">
                 <h2>Buchas</h2>
             </a>
         </div>
 
         <div class="col-produtos-item">
-            <a title="Perfis plásticos" href="../product-pages/cat-perfis-plásticos.html"> <img title="Perfis plásticos"
-                    src="../images/cat/Perfis/Perfil Cov.webp" alt="Perfis plásticos"></a>
+            <a title="Perfis plásticos" href="catalogo/cat-perfis-plásticos.html"> <img title="Perfis plásticos"
+                    src="src/images/cat/Perfis/Perfil Cov.webp" alt="Perfis plásticos"></a>
             <a style="text-decoration: none;" title="Perfis plásticos" href="cat-perfis-plásticos.html">
                 <h2>Perfis plásticos</h2>
             </a>
         </div>
 
         <div class="col-produtos-item">
-            <a title="Madeira" href="../product-pages/cat-madeira.html"> <img title="Madeira"
-                    src="../images/cat/Madeiras/cover.jpg" alt="Madeira"></a>
+            <a title="Madeira" href="catalogo/cat-madeira.html"> <img title="Madeira"
+                    src="src/images/cat/Madeiras/cover.jpg" alt="Madeira"></a>
             <a class=" txtcenter" style="text-decoration: none;" title="Madeira" href="/cat-pages/cat-madeira.html">
                 <h2 style="margin-bottom: 5rem;">Madeira</h2>
             </a>
         </div>
 
         <div class="col-produtos-item">
-            <a title="Manípulos" href="../product-pages/cat-manípulos.html"> <img title="Manípulos"
-                    src="../images/cat/Manípulos/Manípulos-redondos/C06img_01.png" alt="Manípulos"></a>
-            <a class=" txtcenter" style="text-decoration: none;" title="Manípulos"
-                href="../product-pages/cat-manípulos.html">
+            <a title="Manípulos" href="catalogo/cat-manípulos.html"> <img title="Manípulos"
+                    src="src/images/cat/Manípulos/Manípulos-redondos/C06img_01.png" alt="Manípulos"></a>
+            <a class=" txtcenter" style="text-decoration: none;" title="Manípulos" href="catalogo/cat-manípulos.html">
                 <h2 style="margin-bottom: 5rem;">Manípulos</h2>
             </a>
         </div>
 
         <div class="col-produtos-item">
-            <a title="Distanciadores" href="../product-pages/cat-distanciadores.html"> <img title="Distanciadores" src="../images/cat/Distanciadores/#"
-                    alt="Distanciadores"></a>
-            <a class=" txtcenter" style="text-decoration: none;" title="Distanciadores" href="../product-pages/cat-distanciadores.html">
+            <a title="Distanciadores" href="catalogo/cat-distanciadores.html"> <img title="Distanciadores"
+                    src="src/images/cat/Distanciadores/#" alt="Distanciadores"></a>
+            <a class=" txtcenter" style="text-decoration: none;" title="Distanciadores"
+                href="catalogo/cat-distanciadores.html">
                 <h2 style="margin-bottom: 5rem;">Distanciadores</h2>
             </a>
         </div>
 
         <div class="col-produtos-item">
-            <a title="Rodízios" href="../product-pages/cat-rodízios.html"> <img title="Rodízios"
-                    src="../images/cat/Rodizios/C18img_01.png" alt="Rodízios"></a>
-            <a class=" txtcenter" style="text-decoration: none;" title="Rodízios" href="../product-pages/cat-rodízios.html">
+            <a title="Rodízios" href="catalogo/cat-rodízios.html"> <img title="Rodízios"
+                    src="src/images/cat/Rodizios/C18img_01.png" alt="Rodízios"></a>
+            <a class=" txtcenter" style="text-decoration: none;" title="Rodízios" href="catalogo/cat-rodízios.html">
                 <h2 style="margin-bottom: 5rem;">Rodízios</h2>
             </a>
         </div>
 
         <div class="col-produtos-item">
-            <a title="Tampas p/ acabamento" href="../product-pages/cat-tampas-acabamento.html"> <img title="RodíTampas p/ acabamentozios"
-                    src="../images/cat/Tampas-para-acabamento/#" alt="Tampas p/ acabamento"></a>
-            <a class=" txtcenter" style="text-decoration: none;" title="Tampas p/ acabamento" href="../product-pages/cat-tampas-acabamento.html">
+            <a title="Tampas p/ acabamento" href="catalogo/cat-tampas-acabamento.html"> <img
+                    title="RodíTampas p/ acabamentozios" src="src/images/cat/Tampas-para-acabamento/#"
+                    alt="Tampas p/ acabamento"></a>
+            <a class=" txtcenter" style="text-decoration: none;" title="Tampas p/ acabamento"
+                href="catalogo/cat-tampas-acabamento.html">
                 <h2 style="margin-bottom: 5rem;">Tampas p/ acabamento</h2>
             </a>
         </div>
 
         <div class="col-produtos-item">
-            <a title="Suportes" href="../product-pages/cat-suportes.html"> <img title="Suportes"
-                    src="../images/cat/Rodizios/C18img_01.png" alt="Suportes"></a>
-            <a class=" txtcenter" style="text-decoration: none;" title="Suportes" href="../product-pages/cat-suportes.html">
+            <a title="Suportes" href="catalogo/cat-suportes.html"> <img title="Suportes"
+                    src="src/images/cat/Rodizios/C18img_01.png" alt="Suportes"></a>
+            <a class=" txtcenter" style="text-decoration: none;" title="Suportes" href="catalogo/cat-suportes.html">
                 <h2 style="margin-bottom: 5rem;">Suportes</h2>
             </a>
         </div>
 
         <div class="col-produtos-item">
-            <a title="Sapatas" href="../product-pages/cat-sapatas.html"> <img title="Sapatas"
-                    src="../images/cat/Sapatas/#" alt="Sapatas"></a>
-            <a class=" txtcenter" style="text-decoration: none;" title="Sapatas" href="../product-pages/cat-sapatas.html">
+            <a title="Sapatas" href="catalogo/cat-sapatas.html"> <img title="Sapatas" src="src/images/cat/Sapatas/#"
+                    alt="Sapatas"></a>
+            <a class=" txtcenter" style="text-decoration: none;" title="Sapatas" href="catalogo/cat-sapatas.html">
                 <h2 style="margin-bottom: 5rem;">Sapatas</h2>
             </a>
         </div>
 
         <div class="col-produtos-item">
             <a title="Acessórios Diversos" href="#"> <img title="Acessórios Diversos"
-                    src="../images/cat/Diversos-para-escritório/#" alt="Acessórios Diversos"></a>
+                    src="src/images/cat/Diversos-para-escritório/#" alt="Acessórios Diversos"></a>
             <a class=" txtcenter" style="text-decoration: none;" title="Acessórios Diversos" href="#">
                 <h2 style="margin-bottom: 5rem;">Acessórios diversos</h2>
             </a>
@@ -235,8 +226,8 @@
                 <div class="mt-8 sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-between">
                     <div class="flex flex-col">
                         <span class="font-bold uppercase mb-2" style="color: #094067;">HDil</span>
-                        <span class="my-2"><a href="informações.html" class="text-white  text-md hover:text-gray-200"><i
-                                    class="icon-info"></i> Informações</a></span>
+                        <span class="my-2"><a href="Empresa.html" class="text-white  text-md hover:text-gray-200"><i
+                                    class="icon-info"></i> Empresa</a></span>
                         <span class="my-2"><a href="contato.html" class="text-white  text-md hover:text-gray-200"><i
                                     class="icon-envelope"></i> Contato</a></span>
                         <span class="my-2"><a
@@ -254,22 +245,22 @@
 
                     <div class="flex flex-col">
                         <span class="font-bold uppercase mt-7 md:mt-0 mb-2" style="color: #094067;">Catálogo</span>
-                        <span class="my-2"><a href="../product-pages/cat-espumas.html"
+                        <span class="my-2"><a href="catalogo/cat-espumas.html"
                                 class="text-white text-md hover:text-gray-100">Espuma</a></span>
-                        <span class="my-2"><a href="../product-pages/cat-cadeiras.html"
+                        <span class="my-2"><a href="catalogo/cat-cadeiras.html"
                                 class="text-white  text-md hover:text-gray-200">Cadeiras</a></span>
-                        <span class="my-2"><a href="../product-pages/cat-pés-niveladores.html"
+                        <span class="my-2"><a href="catalogo/cat-pés-niveladores.html"
                                 class="text-white text-md hover:text-gray-200">Pés Niveladores
                             </a></span>
-                        <span class="my-2"><a href="../product-pages/cat-ponteiras.html"
+                        <span class="my-2"><a href="catalogo/cat-ponteiras.html"
                                 class="text-white text-md hover:text-gray-200">Ponteiras
                             </a></span>
-                        <span class="my-2"><a href="../product-pages/cat-buchas.html"
+                        <span class="my-2"><a href="catalogo/cat-buchas.html"
                                 class="text-white text-md hover:text-gray-200">Buchas</a></span>
-                        <span class="my-2"><a href="../product-pages/cat-perfis-plásticos.html"
+                        <span class="my-2"><a href="catalogo/cat-perfis-plásticos.html"
                                 class="text-white text-md hover:text-gray-200">Perfís Plásticos
                             </a></span>
-                        <span class="my-2"><a href="../product-pages/cat-madeira.html"
+                        <span class="my-2"><a href="catalogo/cat-madeira.html"
                                 class="text-white text-md hover:text-gray-200">Madeira</a></span>
                     </div>
 
@@ -304,7 +295,8 @@
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer>
+    </script>
 </body>
 
 </html>

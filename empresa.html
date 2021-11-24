@@ -5,21 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Informações | HDil - COM. DE ACESSÓRIOS P/ MÓVEIS LTDA</title>
+    <title>Empresa | HDil - Acessórios para Móveis</title>
 
-    <link rel="stylesheet" href="../styles/style.css">
-    <link rel="stylesheet" href="../styles/style-informações.css">
-    <link rel="stylesheet" href="../styles/components/header-bar.css">
+    <link rel="stylesheet" href="src/styles/style.css">
+    <link rel="stylesheet" href="src/styles/style-empresa.css">
+    <link rel="stylesheet" href="src/styles/components/header-bar.css">
 
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-    <link rel="shortcut icon" href="../images/logo-shortcut.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="src/images/logo-shortcut.png" type="image/x-icon" />
 </head>
 
 <body style="background-image: linear-gradient( #094067, white);">
     <div class="header-bar">
         <nav class="nav-bar">
             <ul class="nav-libar">
-                <li><a href="/Email/contato.html" style="color: white"><i class="icon-envelope-alt"></i>
+                <li><a href="contato.html" style="color: white"><i class="icon-envelope-alt"></i>
                         contato@hdil.com</a></li>
                 <li><a class="acontact" href="tel:(11)2337-3560" style="color: white;"><i class="icon-phone"></i>
                         (11) 2337-3560</a></li>
@@ -32,7 +32,7 @@
         class="flex flex-wrap flex-row justify-between md:items-center md:space-x-4 bg-white py-4 px-7 relative">
         <a href="index.html" class="block">
             <span class="sr-only"></span>
-            <img class="h-20 md:h-20" src="../images/logo - bordered.png" alt="HDil Logo" title="HDil Logo">
+            <img class="h-20 md:h-20" src="src/images/logo - bordered.png" alt="HDil Logo" title="HDil Logo">
         </a>
         <button @click="mobileMenuOpen = !mobileMenuOpen"
             class="inline-block md:hidden w-16 h-16 bg-none text-black p-1">
@@ -47,7 +47,7 @@
             style="margin-top: 10px;">
             <a href="index.html" class="block py-1 text-gray-600 text-xl hover:underline">Home</a>
             <a href="produtos.html" class="block py-1 text-gray-600 text-xl hover:underline">Produtos</a>
-            <a href="informações.html" class="block py-1 text-gray-600 text-xl hover:underline">Informações</a>
+            <a href="empresa.html" class="block py-1 text-gray-600 text-xl hover:underline">Empresa</a>
             <a href="contato.html" class="block py-1 text-gray-600 text-xl hover:underline">Contato</a>
             <a href="localização.html" class="block py-1 text-gray-600 text-xl hover:underline">Localização</a>
         </nav>
@@ -60,7 +60,7 @@
                     <a href="index.html">Home</a>
 
                     <span aria-hidden="true" class="mx-2">&gt;</span>
-                    <a href="informações.html" class="text-red-700">Informações</a>
+                    <a href="empresa.html" class="text-red-700">Empresa</a>
 
                     <!--
                         <span aria-hidden="true" class="mx-2">&gt;</span>
@@ -68,7 +68,7 @@
                         -->
 
                 </p>
-                <h4 class="text-3xl font-bold leading-tight text-white dark:text-gray-100">Informações</h4>
+                <h4 class="text-3xl font-bold leading-tight text-white dark:text-gray-100">Empresa</h4>
             </div>
         </div>
     </div>
@@ -133,7 +133,7 @@
                         -webkit-backdrop-filter: blur( 4px );
                         border-radius: 20px;
                         border: 1px solid rgba( 255, 255, 255, 0.18 );"
-                            src="../images/Fotos - Loja/Fotos - Loja - Alternativa.jpeg">
+                            src="src/images/Fotos - Loja/Fotos - Loja - Alternativa.jpeg">
                     </div>
                 </div>
             </div>
@@ -147,8 +147,8 @@
                 <div class="mt-8 sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-between">
                     <div class="flex flex-col">
                         <span class="font-bold uppercase mb-2" style="color: #094067;">HDil</span>
-                        <span class="my-2"><a href="informações.html" class="text-white  text-md hover:text-gray-200"><i
-                                    class="icon-info"></i> Informações</a></span>
+                        <span class="my-2"><a href="empresa.html" class="text-white  text-md hover:text-gray-200"><i
+                                    class="icon-info"></i> Empresa</a></span>
                         <span class="my-2"><a href="contato.html" class="text-white  text-md hover:text-gray-200"><i
                                     class="icon-envelope"></i> Contato</a></span>
                         <span class="my-2"><a
@@ -166,23 +166,23 @@
 
                     <div class="flex flex-col">
                         <span class="font-bold uppercase mt-7 md:mt-0 mb-2" style="color: #094067;">Catálogo</span>
-                        <span class="my-2"><a href="../product-pages/cat-espumas.html"
+                        <span class="my-2"><a href="catalogo/cat-espumas.html"
                                 class="text-white text-md hover:text-gray-100">Espuma</a></span>
-                        <span class="my-2"><a href="../product-pages/cat-cadeiras.html"
+                        <span class="my-2"><a href="catalogo/cat-cadeiras.html"
                                 class="text-white  text-md hover:text-gray-200">Cadeiras</a></span>
-                        <span class="my-2"><a href="../product-pages/cat-pés-niveladores.html"
+                        <span class="my-2"><a href="catalogo/cat-pés-niveladores.html"
                                 class="text-white text-md hover:text-gray-200">Pés Niveladores
                             </a></span>
-                        <span class="my-2"><a href="../product-pages/cat-ponteiras.html"
+                        <span class="my-2"><a href="catalogo/cat-ponteiras.html"
                                 class="text-white text-md hover:text-gray-200">Ponteiras
                             </a></span>
-                        <span class="my-2"><a href="../product-pages/cat-acessórios-plásticos.html"
+                        <span class="my-2"><a href="catalogo/cat-acessórios-plásticos.html"
                                 class="text-white text-md hover:text-gray-200">Acessórios
                                 Plásticos </a></span>
-                        <span class="my-2"><a href="../product-pages/cat-perfis-plásticos.html"
+                        <span class="my-2"><a href="catalogo/cat-perfis-plásticos.html"
                                 class="text-white text-md hover:text-gray-200">Perfís Plásticos
                             </a></span>
-                        <span class="my-2"><a href="../product-pages/cat-madeira.html"
+                        <span class="my-2"><a href="catalogo/cat-madeira.html"
                                 class="text-white text-md hover:text-gray-200">Madeira</a></span>
                     </div>
                     <div class="flex flex-col">

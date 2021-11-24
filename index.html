@@ -5,21 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Localização | HDil - COM. DE ACESSÓRIOS P/ MÓVEIS LTDA</title>
+    <title>HDil - Acessórios para Móveis</title>
 
-    <link rel="stylesheet" href="../styles/style.css">
-    <link rel="stylesheet" href="../styles/style-localização.css">
-    <link rel="stylesheet" href="../styles/components/header-bar.css">
+    <link rel="stylesheet" href="src/styles/style.css">
+    <link rel="stylesheet" href="src/styles/components/header-bar.css">
+    <link rel="stylesheet" href="src/styles/components/animated-bg.css">
 
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-    <link rel="shortcut icon" href="../images/logo-shortcut.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="src/images/logo-shortcut.png" type="image/x-icon" />
 </head>
 
-<body style="background-image: linear-gradient( #094067, white);">
+<body>
     <div class="header-bar">
         <nav class="nav-bar">
             <ul class="nav-libar">
-                <li><a href="/Email/contato.html" style="color: white"><i class="icon-envelope-alt"></i>
+                <li><a href="contato.html" style="color: white"><i class="icon-envelope-alt"></i>
                         contato@hdil.com</a></li>
                 <li><a class="acontact" href="tel:(11)2337-3560" style="color: white;"><i class="icon-phone"></i>
                         (11) 2337-3560</a></li>
@@ -28,11 +28,12 @@
             </ul>
         </nav>
     </div>
+
     <header x-data="{ mobileMenuOpen : false }"
         class="flex flex-wrap flex-row justify-between md:items-center md:space-x-4 bg-white py-4 px-7 relative">
         <a href="index.html" class="block">
             <span class="sr-only"></span>
-            <img class="h-20 md:h-20" src="../images/logo - bordered.png" alt="HDil Logo" title="HDil Logo">
+            <img class="h-20 md:h-20" src="src/images/logo - bordered.png" alt="HDil Logo" title="HDil Logo">
         </a>
         <button @click="mobileMenuOpen = !mobileMenuOpen"
             class="inline-block md:hidden w-16 h-16 bg-none text-black p-1">
@@ -47,24 +48,56 @@
             style="margin-top: 10px;">
             <a href="index.html" class="block py-1 text-gray-600 text-xl hover:underline">Home</a>
             <a href="produtos.html" class="block py-1 text-gray-600 text-xl hover:underline">Produtos</a>
-            <a href="informações.html" class="block py-1 text-gray-600 text-xl hover:underline">Informações</a>
+            <a href="empresa.html" class="block py-1 text-gray-600 text-xl hover:underline">Empresa</a>
             <a href="contato.html" class="block py-1 text-gray-600 text-xl hover:underline">Contato</a>
             <a href="localização.html" class="block py-1 text-gray-600 text-xl hover:underline">Localização</a>
         </nav>
     </header>
 
-    <section id="local">
-        <div class="local">
+    <hr>
 
+    <article style="max-width: 1260px; margin: 0 auto; padding-bottom: 1rem;">
+        <div class="mx-auto container px-6 py-12">
+            <div class="flex flex-col justify-center items-center w-full">
+                <h1 class="f-f-d-s text-2xl lg:text-5xl leading-normal tracking-wide text-gray-800 text-center"
+                    style="color: white; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
+                    Seja bem
+                    vindo à</h1>
+            </div>
+            <div class="lg:flex items-center justify-center mt-4 lg:mt-32" style="margin-top: 4rem;">
+                <div class="lg:w1 h1">
+                    <img src="src/images/Fotos - Loja/Fotos - Loja.jpeg" class="w-full h-full"
+                        alt="An elegant bathroom with a bathtub,basin and other fancy items" role="img"
+                        style="border-radius: 0.5rem;" />
+                </div>
+                <div class="mt-4 lg:mt-0 py-12 px-8 lg:px-12 bg-gray-700 lg:w-2/5 lg:-ml-12 text-white f-f-l">
+                    <h2 class="lg:text-4xl text-2xl font-normal leading-9 pb-6 f-f-d-s">Loja HDil</h2>
+                    <div class="flex items-center font-lato">
+                        <p class="text-sm lg:text-lg font-normal color-white mb-4">Mooca - SP</p>
 
-            <iframe class="map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.364452272905!2d-46.619441384331!3d-23.555350667257034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5916b58f2cf7%3A0xe0ed3bd3429875e4!2sRua%20Bar%C3%A3o%20de%20Jaguara%2C%20279%20-%20Mooca%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2003105-120!5e0!3m2!1spt-BR!2sbr!4v1627221891949!5m2!1spt-BR!2sbr"
-                width="980px" height="385px" frameborder="0" style="border:0;" allowfullscreen=""
-                loading="lazy"></iframe>
+                        <p class="text-sm lg:text-lg font-normal color-white mb-4"></p>
+                    </div>
+                    <div class="pb-6 leading-6 f-f-l text-base lg:text-xl leading-9">A HDil Acessórios para móveis,
+                        possui alto índice de aprovação de seus clientes, sempre seguindo altos padrões de qualidade.
+                        Inovando junto com as tendências, tem conseguido com o passar dos anos suprir o
+                        mercado de acessórios para indústria moveleira.</div>
+                    <button
+                        class="border-b p-1 border-white lg:text-2xl text-base leading-6 f-f-l font-bold focus:border-b-0 focus:outline-none focus:ring-2 focus:ring-gray-400">
+                        <a href="empresa.html"> Sobre
+                            Nós </a></button>
+                </div>
+            </div>
         </div>
-    </section>
+    </article>
 
-    <hr style="color: black;">
+    <div class="whatsapp-link">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <a href="https://api.whatsapp.com/send?phone=5511942333536&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20produtos%20da%20H-DIL%20COM.%20DE%20ACESSORIOS%20LTDA"
+            style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+      z-index:1000;" target="_blank">
+            <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+        </a>
+    </div>
 
     <footer class="footer relative pt-2 border-t-2 border-red-800" style="background-color: #90b4ce;">
         <div class="container mx-auto px-6">
@@ -73,8 +106,8 @@
                 <div class="mt-8 sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-between">
                     <div class="flex flex-col">
                         <span class="font-bold uppercase mb-2" style="color: #094067;">HDil</span>
-                        <span class="my-2"><a href="informações.html" class="text-white  text-md hover:text-gray-200"><i
-                                    class="icon-info"></i> Informações</a></span>
+                        <span class="my-2"><a href="empresa.html" class="text-white  text-md hover:text-gray-200"><i
+                                    class="icon-info"></i> Empresa</a></span>
                         <span class="my-2"><a href="contato.html" class="text-white  text-md hover:text-gray-200"><i
                                     class="icon-envelope"></i> Contato</a></span>
                         <span class="my-2"><a
@@ -82,6 +115,7 @@
                                 class="text-white  text-md hover:text-gray-200"><i class="icon-map-marker"></i>
                                 Rua Barão De Jaguara, 279 <br>
                                 Mooca São Paulo-SP CEP: 03105-120</a></span>
+
                         <span class="my-2"><a
                                 href="https://www.google.com.br/maps/dir//Rua+Bar%C3%A3o+de+Jaguara,+279+-+Mooca,+S%C3%A3o+Paulo+-+SP,+03105-120/@-23.5553507,-46.6194414,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x94ce5916b58f2cf7:0xe0ed3bd3429875e4!2m2!1d-46.6172527!2d-23.5553556!3e0"
                                 class="text-white  text-md hover:text-gray-200">
@@ -92,23 +126,23 @@
 
                     <div class="flex flex-col">
                         <span class="font-bold uppercase mt-7 md:mt-0 mb-2" style="color: #094067;">Catálogo</span>
-                        <span class="my-2"><a href="../product-pages/cat-espumas.html"
+                        <span class="my-2"><a href="catalogo/cat-espumas.html"
                                 class="text-white text-md hover:text-gray-100">Espuma</a></span>
-                        <span class="my-2"><a href="../product-pages/cat-cadeiras.html"
+                        <span class="my-2"><a href="catalogo/cat-cadeiras.html"
                                 class="text-white  text-md hover:text-gray-200">Cadeiras</a></span>
-                        <span class="my-2"><a href="../product-pages/cat-pés-niveladores.html"
+                        <span class="my-2"><a href="catalogo/cat-pés-niveladores.html"
                                 class="text-white text-md hover:text-gray-200">Pés Niveladores
                             </a></span>
-                        <span class="my-2"><a href="../product-pages/cat-ponteiras.html"
+                        <span class="my-2"><a href="catalogo/cat-ponteiras.html"
                                 class="text-white text-md hover:text-gray-200">Ponteiras
                             </a></span>
-                        <span class="my-2"><a href="../product-pages/cat-acessórios-plásticos.html"
+                        <span class="my-2"><a href="catalogo/cat-acessórios-plásticos.html"
                                 class="text-white text-md hover:text-gray-200">Acessórios
                                 Plásticos </a></span>
-                        <span class="my-2"><a href="../product-pages/cat-perfis-plásticos.html"
+                        <span class="my-2"><a href="catalogo/cat-perfis-plásticos.html"
                                 class="text-white text-md hover:text-gray-200">Perfís Plásticos
                             </a></span>
-                        <span class="my-2"><a href="../product-pages/cat-madeira.html"
+                        <span class="my-2"><a href="catalogo/cat-madeira.html"
                                 class="text-white text-md hover:text-gray-200">Madeira</a></span>
                     </div>
                     <div class="flex flex-col">

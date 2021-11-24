@@ -17,9 +17,10 @@ produtos - ja troquei hrefs e empresa
 empresa - ja troquei hrefs e empresa
 localização - ja troquei hrefs e empresa
 
-falta arrumar todos os hrefs empresa e imgs EM CADA CAT PAGE E SUBCAT PAGES
+*arrumar todos os hrefs empresa e imgs EM CADA CAT PAGE E SUBCAT PAGES
 
 arrumar todos title:
 index - Acessórios para Móveis
 
-
+*tirar prefixo cat das paginas do catalogo, e arrumar cada href dos produtos da pagina catalogo e os footer 
+de cada pagina

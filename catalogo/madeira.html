@@ -7,21 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Madeiras | Produtos - HDil</title>
 
-    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../src/styles/style.css">
     <link rel="stylesheet" href="https://oppeano.com.br/css/app.css">
-    <link rel="stylesheet" href="../styles/components/header-bar.css">
+    <link rel="stylesheet" href="../src/styles/components/header-bar.css">
 
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-    <link rel="shortcut icon" href="../images/logo-shortcut.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="../src/images/logo-shortcut.png" type="image/x-icon" />
 </head>
 
-<body style="background-color:#094067; margin-top: -9rem;">
+<body style="background-color:#094067; margin-top: -7rem;">
     <header x-data="{ mobileMenuOpen : false }"
         class="flex flex-wrap flex-row justify-between md:items-center md:space-x-4 bg-white py-3 px-7 relative"
         style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
-        <a href="../landing-pages/index.html" class="block">
+        <a href="../index.html" class="block">
             <span class="sr-only"></span>
-            <img class="h-20 md:h-20" src="../images/logo - bordered.png" alt="HDil Logo" title="HDil Logo">
+            <img class="h-20 md:h-20" src="../src/images/logo - bordered.png" alt="HDil Logo" title="HDil Logo">
         </a>
         <button @click="mobileMenuOpen = !mobileMenuOpen"
             class="inline-block md:hidden w-16 h-16 bg-none text-black p-1">
@@ -34,13 +34,13 @@
         <nav class="absolute md:relative top-20 left-0 md:top-0 z-20 md:flex flex-col md:flex-row md:space-x-6 font-semibold w-full md:w-auto bg-gray-100 shadow-md md:rounded-none md:shadow-none md:bg-transparent p-6 pt-0 md:p-0"
             :class="{ 'flex' : mobileMenuOpen , 'hidden' : !mobileMenuOpen}" @click.away="mobileMenuOpen = false"
             style="margin-top: 10px;">
-            <a href="../landing-pages/index.html" class="block py-1 text-gray-600 text-xl hover:underline">Home</a>
-            <a href="../landing-pages/produtos.html"
+            <a href="../index.html" class="block py-1 text-gray-600 text-xl hover:underline">Home</a>
+            <a href="../produtos.html"
                 class="block py-1 text-gray-600 text-xl hover:underline">Produtos</a>
-            <a href="../landing-pages/empresa.html"
+            <a href="../empresa.html"
                 class="block py-1 text-gray-600 text-xl hover:underline">Empresa</a>
-            <a href="../landing-pages/contato.html" class="block py-1 text-gray-600 text-xl hover:underline">Contato</a>
-            <a href="../landing-pages/localização.html"
+            <a href="../contato.html" class="block py-1 text-gray-600 text-xl hover:underline">Contato</a>
+            <a href="../localização.html"
                 class="block py-1 text-gray-600 text-xl hover:underline">Localização</a>
         </nav>
     </header>
@@ -49,10 +49,10 @@
         <div class="container px-10 mx-auto flex flex-col md:flex-row items-start md:items-center justify-between">
             <div>
                 <p role="navigation" aria-label="breadcrumbs" class="flex items-center text-white text-xs text-xl">
-                    <a href="../landing-pages/index.html" class="text-white">Home</a>
+                    <a href="../index.html" class="text-white">Home</a>
 
                     <span aria-hidden="true" class="mx-2">&gt;</span>
-                    <a href="../landing-pages/produtos.html" class="text-red-700">Produtos</a>
+                    <a href="../produtos.html" class="text-red-700">Produtos</a>
 
                     <!--
                         <span aria-hidden="true" class="mx-2">&gt;</span>
@@ -68,7 +68,7 @@
         <div data-v-7a59e1a0="" class="wrapper">
             <div data-v-7a59e1a0="" class="wrapper-header" style="background-color: #9A1B14;">
                 <div data-v-7a59e1a0="" class="wrapper-header-details"><a data-v-7a59e1a0=""
-                        href="../landing-pages/produtos.html" class="router-link router-link-active"><svg
+                        href="../produtos.html" class="router-link router-link-active"><svg
                             data-v-7a59e1a0="" style="margin-top: -10px; color: white;"
                             xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -89,7 +89,7 @@
                 <div data-v-7a59e1a0="">
                     <div data-v-7a59e1a0="" class="item-box">
                         <div data-v-7a59e1a0="" class="item-box-image"><img data-v-7a59e1a0=""
-                                src="../images/cat/Madeiras/diretor.jpg" alt="Madeira-diretor"></div>
+                                src="../src/images/cat/Madeiras/diretor.jpg" alt="Madeira-diretor"></div>
                         <div data-v-7a59e1a0="" class="item-box-code"><span data-v-7a59e1a0="">000000</span></div>
                         <div data-v-7a59e1a0="" class="item-box-description"><span data-v-7a59e1a0="">Madeira diretor
                             </span></div>
@@ -98,7 +98,7 @@
                 <div data-v-7a59e1a0="">
                     <div data-v-7a59e1a0="" class="item-box">
                         <div data-v-7a59e1a0="" class="item-box-image"><img data-v-7a59e1a0=""
-                                src="../images/cat/Madeiras/presidente.jpg" alt="Madeira-presidente"></div>
+                                src="../src/images/cat/Madeiras/presidente.jpg" alt="Madeira-presidente"></div>
                         <div data-v-7a59e1a0="" class="item-box-code"><span data-v-7a59e1a0="">000000</span></div>
                         <div data-v-7a59e1a0="" class="item-box-description"><span data-v-7a59e1a0="">Madeira presidente
                             </span></div>
@@ -107,7 +107,7 @@
                 <div data-v-7a59e1a0="">
                     <div data-v-7a59e1a0="" class="item-box">
                         <div data-v-7a59e1a0="" class="item-box-image"><img data-v-7a59e1a0=""
-                                src="../images/cat/Madeiras/executiva.jpg" alt="Madeira-executiva"></div>
+                                src="../src/images/cat/Madeiras/executiva.jpg" alt="Madeira-executiva"></div>
                         <div data-v-7a59e1a0="" class="item-box-code"><span data-v-7a59e1a0="">000000</span></div>
                         <div data-v-7a59e1a0="" class="item-box-description"><span data-v-7a59e1a0="">Madeira executiva
                             </span></div>
@@ -116,7 +116,7 @@
                 <div data-v-7a59e1a0="">
                     <div data-v-7a59e1a0="" class="item-box">
                         <div data-v-7a59e1a0="" class="item-box-image"><img data-v-7a59e1a0=""
-                                src="../images/cat/Madeiras/executiva (2).png" alt="Madeira-executiva"></div>
+                                src="../src/images/cat/Madeiras/executiva (2).png" alt="Madeira-executiva"></div>
                         <div data-v-7a59e1a0="" class="item-box-code"><span data-v-7a59e1a0="">000000</span></div>
                         <div data-v-7a59e1a0="" class="item-box-description"><span data-v-7a59e1a0="">Madeira executiva
                             </span></div>
@@ -125,7 +125,7 @@
                 <div data-v-7a59e1a0="">
                     <div data-v-7a59e1a0="" class="item-box">
                         <div data-v-7a59e1a0="" class="item-box-image"><img data-v-7a59e1a0=""
-                                src="../images/cat/Madeiras/secretária.jpg" alt="Madeira-secretária"></div>
+                                src="../src/images/cat/Madeiras/secretária.jpg" alt="Madeira-secretária"></div>
                         <div data-v-7a59e1a0="" class="item-box-code"><span data-v-7a59e1a0="">000000</span></div>
                         <div data-v-7a59e1a0="" class="item-box-description"><span data-v-7a59e1a0="">Madeira secretária
                             </span></div>
@@ -152,10 +152,10 @@
                 <div class="mt-8 sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-between">
                     <div class="flex flex-col">
                         <span class="font-bold uppercase mb-2" style="color: #094067;">HDil</span>
-                        <span class="my-2"><a href="../landing-pages/empresa.html"
+                        <span class="my-2"><a href="../empresa.html"
                                 class="text-white  text-md hover:text-gray-200"><i class="icon-info"></i>
                                 Empresa</a></span>
-                        <span class="my-2"><a href="../landing-pages/contato.html"
+                        <span class="my-2"><a href="../contato.html"
                                 class="text-white  text-md hover:text-gray-200"><i class="icon-envelope"></i>
                                 Contato</a></span>
                         <span class="my-2"><a

@@ -17,10 +17,10 @@ $header = "From: henrique@hdil.com"."\r\n".
         "X=Mailer:PHP/".phpversion();
 
 if(mail($to,$subject,$body,$header)){
-        echo("Email enviado com sucesso!");
+        echo("Email enviado com sucesso! Em breve você será retornado! :)");
 
 }else{
-        echo("O Email não pode ser enviado");
+        echo("O Email não pode ser enviado! :(");
 }
 }
 ?>

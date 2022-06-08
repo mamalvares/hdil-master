@@ -1,0 +1,7 @@
+CADASTREI OS PRODUTOS NAS CATALOG-PAGES:
+-espumas
+-madeiras
+-manípulos
+
+CADASTREI OS PRODUTOS NAS ITEM-CATALOG-PAGES:
+-manípulos redondos

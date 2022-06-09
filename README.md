@@ -2,8 +2,25 @@
 
 [![licence mit](https://img.shields.io/badge/licence-MIT-blue.svg)](https://github.com/mamalvares/hdil-master-v2-tailwind/blob/main/LICENSE)
 
-(https://hdil.netlify.app/src/images/logo%20-%20bordered.png)
+<h1 align="center">
+    <img alt="Spotify" title="Spotify" src="url('https://hdil.netlify.app/src/images/logo%20-%20bordered.png')" style="width: 60%;"/>
+</h1>
 
-Neste projeto tive a oportunidade de fazer o website para uma loja de peças injetadas.
+<h1>HDil</h1>
+
+<br>
+
+## 💻 Projeto
+Esse projeto consiste no website para uma loja real de produtos injetados.
+
+<br>
+
+## 🚀 Tecnologias
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+- [HTML](#)
+- [CSS](#)
+- [Javascript](#)
+- [TailwindCSS](#)
+- [PHP](#)
 
 [MIT License](./LICENSE) © [Matheus Abrahão](https://github.com/mamalvares)

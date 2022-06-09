@@ -1,4 +1,4 @@
-# H Dil Website master!
+# HDil Website master
 
 [![licence mit](https://img.shields.io/badge/licence-MIT-blue.svg)](https://github.com/mamalvares/hdil-master-v2-tailwind/blob/main/LICENSE)
 

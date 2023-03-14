@@ -1,6 +1,6 @@
 # 💻 HDil Website
 
-<img width="1440" alt="HDil demo" src="https://user-images.githubusercontent.com/55765308/210574370-c8e56a99-0e41-4f6e-8e43-34c00f5d2f2b.png">
+<img width="1440" alt="HDil demo" src="https://user-images.githubusercontent.com/55765308/214456293-b629fd7f-657c-43c1-b664-61d7f7e34eeb.png">
 
 ## Acesse o projeto em:
 
